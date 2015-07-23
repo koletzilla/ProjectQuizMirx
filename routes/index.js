@@ -14,7 +14,7 @@ router.get('/quizes/question', quizController.question);
 router.get('/quizes/answer', quizController.answer);
 
 router.get('/author', function(req, res, next){
-	res.render('author', { autor: 'Jose María Muño9z',
+	res.render('author', { autor: 'Jose María Muñoz',
 						photo: 'images/author.jpg'});
 });
 
