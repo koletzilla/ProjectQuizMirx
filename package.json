@@ -8,12 +8,11 @@
   "engines": {
     "node": "0.10.X",
     "npm": "1.4.X"
-<<<<<<< HEAD
-=======
+
   },
   "devDependencies": {
     "sqlite3": "^3.0.9"
->>>>>>> 70d8d473073b0a9a226fcb1eb282f1f2d909a2ac
+
   },
   "dependencies": {
     "body-parser": "~1.13.2",
@@ -23,15 +22,12 @@
     "express": "~4.13.1",
     "express-partials": "^0.3.0",
     "morgan": "~1.6.1",
-<<<<<<< HEAD
     "sequelize": "^1.7.11",
     "serve-favicon": "~2.3.0",
-    "sqlite3": "^3.0.9"
-=======
+    "sqlite3": "^3.0.9",
     "pg": "^4.1.1",
     "pg-hstore": "^2.3.2",
     "sequelize": "^1.7.11",
     "serve-favicon": "~2.3.0"
->>>>>>> 70d8d473073b0a9a226fcb1eb282f1f2d909a2ac
   }
 }
