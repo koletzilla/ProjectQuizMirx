@@ -1,6 +1,5 @@
-/node_modules
+node_modules
 npm-debug.log
 quiz.sqlite
 .DS_Store
-npm-debug.log
-.env
+

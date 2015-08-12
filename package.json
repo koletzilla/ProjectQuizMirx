@@ -8,11 +8,9 @@
   "engines": {
     "node": "0.10.X",
     "npm": "1.4.X"
-
   },
   "devDependencies": {
     "sqlite3": "^3.0.9"
-
   },
   "dependencies": {
     "body-parser": "~1.13.2",
@@ -22,9 +20,6 @@
     "express": "~4.13.1",
     "express-partials": "^0.3.0",
     "morgan": "~1.6.1",
-    "sequelize": "^1.7.11",
-    "serve-favicon": "~2.3.0",
-    "sqlite3": "^3.0.9",
     "pg": "^4.1.1",
     "pg-hstore": "^2.3.2",
     "sequelize": "^1.7.11",
