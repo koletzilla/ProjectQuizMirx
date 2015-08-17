@@ -1,0 +1,5 @@
+Autor: Jose María Muñoz Rey
+
+Github -> https://github.com/koletzilla/ProjectQuizMirx
+
+Heroku -> http://quiz-josemu-mirx.herokuapp.com/

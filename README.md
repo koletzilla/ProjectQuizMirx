@@ -2,6 +2,12 @@
 
 Proyecto para el curso "Desarrollo de servicios en la nube con HTML5, Javascript y node.js" de Miriadax.net
 
+### Enlaces
+
+Proyecto en GitHub - [https://github.com/koletzilla/ProjectQuizMirx](https://github.com/koletzilla/ProjectQuizMirx)
+
+Proyecto en Heroku - [http://quiz-josemu-mirx.herokuapp.com/](http://quiz-josemu-mirx.herokuapp.com/)
+
 ### Requisitos
 
 Tener instalado node y npm
