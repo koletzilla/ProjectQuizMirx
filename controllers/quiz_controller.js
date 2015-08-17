@@ -14,8 +14,6 @@ exports.load = function(req, res, next, quizId) {
 
 // GET /quizes
 exports.index = function(req, res) {
-  console.log("### quiz_controller - Se carga index");
-  console.log("### Search:" + req.query.search);
   if(req.query.search != undefined){
     //Delimitar con '%' y sustituir los espacios por '%'
     var search = '%' + req.query.search + '%';
