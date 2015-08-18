@@ -44,6 +44,26 @@ app.use(function(req, res, next) {
   next();
 });
 
+// Autologout
+app.use(function(req, res, next) {
+
+  if(req.session.user){ //si está logueado
+    console.log('### logueado con - ' + req.session.user.username);
+    var ultimo = new Date(req.session.date);
+    if(ultimo.getTime()+(1000*60*2) < new Date().getTime()){
+      console.log('### LOGOUT - Diferencia de tiempo: ' + (new Date().getTime() - ultimo.getTime())/1000 + ' segundos' );
+      delete req.session.user;
+      res.redirect('/login');
+    }else{
+      console.log('### SIGUE - Diferencia de tiempo: ' + (new Date().getTime() - ultimo.getTime())/1000 + ' segundos' );
+      req.session.date = new Date();
+      next();
+    }
+  }else{
+    next();
+  }
+});
+
 // RUTAS
 app.use('/', routes);
 
